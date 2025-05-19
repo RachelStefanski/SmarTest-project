@@ -1,0 +1,56 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden; /* מונע גלילה */
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #ffffff;
+  font-family: 'Arial', sans-serif;
+  overflow: hidden; /* לוודא שגם כאן אין גלילה פנימית */
+}
+
+.logo {
+  width: 300px;
+  max-width: 80%;
+  margin-bottom: 20px;
+}
+
+.password-input {
+  padding: 10px;
+  font-size: 16px;
+  width: 200px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  text-align: center;
+  border-color: #365B6D;
+}
+
+.error-message {
+  color: red;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.start-button {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #41C1BA;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.start-button:hover {
+  background-color: #41C1BA;
+}
+

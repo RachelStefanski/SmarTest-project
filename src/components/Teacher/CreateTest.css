@@ -1,0 +1,79 @@
+/* CreateTest.css */
+.create-test-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  background: #f3f3f3;
+  border-radius: 10px;
+  max-height: 90vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  direction: rtl;
+  box-sizing: border-box;
+}
+
+.create-test-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.create-test-container input,
+.create-test-container textarea,
+.create-test-container select {
+  width: 100%;
+  box-sizing: border-box;
+  margin: 5px 0 10px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  resize: vertical;
+}
+
+.create-test-container button {
+  margin: 10px 0;
+  padding: 10px 15px;
+  background: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s ease;
+}
+
+.create-test-container button:hover {
+  background: #45a049;
+}
+
+.create-test-container .work-block {
+  background: #e8e8e8;
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.create-test-container .question-block {
+  margin: 10px 0;
+  background: #ffffff;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.create-test-container .question-block button {
+  background: #d9534f;
+  font-size: 14px;
+}
+
+.create-test-container .question-block button:hover {
+  background: #c9302c;
+}
+
+.create-test-container .error {
+  color: red;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 15px;
+}

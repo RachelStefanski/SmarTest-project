@@ -1,0 +1,57 @@
+.student-test-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    direction: rtl;
+  }
+  
+  .login-section,
+  .exam-section {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .login-section input {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+  }
+  
+  .login-section button {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  
+  .exam-header {
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .work-section {
+    margin-bottom: 30px;
+  }
+  
+  .question-section {
+    margin-bottom: 15px;
+  }
+  
+  .options label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  

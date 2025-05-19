@@ -1,0 +1,53 @@
+.marks-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px;
+    text-align: center;
+    direction: rtl;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .marks-title {
+    font-size: 28px;
+    color: #2c3e50;
+    margin-bottom: 30px;
+  }
+  
+  .test-card {
+    background-color: #f9f9f9;
+    border: 2px solid #dedede;
+    border-radius: 10px;
+    padding: 25px;
+    margin-bottom: 30px;
+  }
+  
+  .test-title {
+    font-size: 22px;
+    color: #34495e;
+    margin-bottom: 10px;
+  }
+  
+  .total-grade {
+    font-size: 20px;
+    font-weight: bold;
+    color: #27ae60;
+    margin-bottom: 20px;
+  }
+  
+  .questions-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .questions-table th,
+  .questions-table td {
+    padding: 12px;
+    border: 1px solid #ccc;
+    text-align: right;
+    font-size: 16px;
+  }
+  
+  .questions-table th {
+    background-color: #eaeaea;
+  }
+  
