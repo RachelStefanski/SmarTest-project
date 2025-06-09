@@ -1,0 +1,12 @@
+client-side/my-react-app/node_modules/
+client-side/my-react-app/public/
+client-side/my-react-app/tests/
+hebert_env/
+server-side/__pycache__/
+server-side/checkpoints/
+server-side/logs/
+server-side/results/
+server-side/train_deberta/
+server-side/nli_deberta_trained/
+server-side/train_T5/
+nli_deberta_trained/

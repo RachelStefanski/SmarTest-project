@@ -1,0 +1,80 @@
+[
+  {
+    "test_id": "3f70936c-83c4-466c-ac40-cc0063e06b7a",
+    "teacher_id": "123",
+    "title": "מבחן של Israel Teacher",
+    "startTime": "22:00",
+    "duration": "20",
+    "works": [
+      {
+        "name": "ex.1",
+        "weight": "100",
+        "questions": [
+          {
+            "type": "open",
+            "text": "Why are you tired? List 3 reasons.",
+            "options": [
+              ""
+            ],
+            "answer": "Because I don't have the strength, because I'm nervous, because I went to bed late."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "test_id": "c9d2161d-6154-414d-a1ef-56e80574ec21",
+    "teacher_id": null,
+    "test_name": "מינחה",
+    "start_time": "",
+    "duration": "",
+    "class_ids": [],
+    "works": []
+  },
+  {
+    "test_id": "7e332ecb-7c08-493d-bde8-cf3b768c9a11",
+    "teacher_id": null,
+    "test_name": "מינחה1",
+    "start_time": "",
+    "duration": "",
+    "class_ids": [],
+    "works": []
+  },
+  {
+    "test_id": "f69559f4-d158-4e7b-9bba-07a2ca8d9d19",
+    "teacher_id": null,
+    "test_name": "ואחו",
+    "start_time": "",
+    "duration": "",
+    "class_ids": [],
+    "works": []
+  },
+  {
+    "test_id": "8ccf58df-5115-4841-8c00-744971c97b7e",
+    "teacher_id": 123,
+    "test_name": "לחניהע",
+    "start_time": "2025-06-05T00:30",
+    "duration_minutes": 15,
+    "class_ids": [
+      "classB"
+    ],
+    "works": [
+      {
+        "work_id": 1,
+        "work_title": "עא6ע",
+        "score": 100,
+        "questions": [
+          {
+            "question_id": "1_1",
+            "type": "open",
+            "question": "חןיו",
+            "model_answer": [
+              "לחינע"
+            ],
+            "weight": 100
+          }
+        ]
+      }
+    ]
+  }
+]
